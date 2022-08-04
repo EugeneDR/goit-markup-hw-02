@@ -89,7 +89,6 @@ text-transform: uppercase;
 }
 .button {
     font-family:inherit;
-    font-style:inherit;
     color: var(--contrast-color);
     background-color:var(--accent-color);
     border-color: transparent;
@@ -161,11 +160,10 @@ footer {
 .logo {
     color: var(--contrast-color);
 }
-.address-list {
-    font-style: normal;
-}
+
 .address-link {
     color: var(--contrast-color);
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
